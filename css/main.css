@@ -231,6 +231,7 @@ footer .footer-content {
 
 @media (max-width: 500px) {
   .header-container {
+    padding-top: 0.5rem;
     flex-direction: column-reverse; }
     .header-container ul {
       flex-direction: row; }
