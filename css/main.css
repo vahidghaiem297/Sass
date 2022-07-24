@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../dist/fonts/Vazir.eot"), url("../dist/fonts/Vazir.woff2") format("woff2"), url("../dist/fonts/Vazir.woff") format("woff"), url("../dist/fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
+
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  overflow: hidden;
+  margin: auto; }
+
+.text-primary {
+  color: #1c77c3; }
+
+.header-content .btn-light {
+  text-decoration: none;
+  padding: 0.9rem 2rem;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  transition: all 0.5s; }
+
+a[class^="btn-"]:hover {
+  background-color: #1c77c3;
+  color: #e9e6ff; }
+
+.text-center {
+  text-align: center; }
+
+p {
+  text-align: center;
+  line-height: 30px; }
+
+.bottom-line {
+  width: 3rem;
+  height: 0.2rem;
+  color: #1c77c3;
+  background-color: #1c77c3;
+  display: inline-block; }
+
+header {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url("../img/nature2.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  color: #fff; }
+
+body, html {
+  font-family: "Vazir";
+  overflow-x: hidden; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #13262f; }
+
+img {
+  width: 100%; }
+
+.logo {
+  font-size: 2rem; }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem; }
+  .header-container ul {
+    display: flex;
+    align-items: center; }
+    .header-container ul li {
+      padding: 1rem 1.5rem; }
+    .header-container ul a {
+      padding: 12px 14px;
+      font-size: 1.1rem;
+      color: #fff;
+      padding-bottom: 0.5rem;
+      border-bottom: 3px transparent solid;
+      --webkit-transition:$property $time;
+      --ms-transition:$property $time;
+      --o-transition:$property $time;
+      transition: border-color 0.5; }
+      .header-container ul a:hover {
+        border-color: #ccc; }
+      .header-container ul a.active {
+        border-color: #1c77c3; }
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh; }
+  .header-content h3 {
+    color: #e9e6ff;
+    font-size: 3rem; }
+  .header-content p {
+    color: #e9e6ff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem 0; }
+  .header-content .btn-light {
+    background-color: #ccc; }
+
+.home {
+  background-color: #fff; }
+  .home-1 .items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 2rem; }
+  .home-1 h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem; }
+  .home-1 i {
+    color: #1c77c3;
+    padding-bottom: 0.4rem; }
+  .home-2 {
+    padding-top: 1rem; }
+    .home-2 .items {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); }
+    .home-2 .items div {
+      padding: 3rem;
+      margin-bottom: 2rem;
+      text-align: center; }
+    .home-2 .items div ul li {
+      line-height: 2; }
+    .home-2 .items div:nth-child(odd) {
+      background-color: #1c77c3;
+      color: #fff; }
+    .home-2 .items div:nth-child(even) {
+      background-color: #e9e6ff; }
+  .home-3 h3 {
+    margin-top: 2rem; }
+
+.process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem; }
+  .process-icon {
+    background-color: #13262f;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    transform: scale(0.9);
+    color: #fff;
+    position: relative;
+    line-height: 70px;
+    --webkit-transition:$property $time;
+    --ms-transition:$property $time;
+    --o-transition:$property $time;
+    transition: all 1s; }
+    .process-icon:hover {
+      background-color: #e9e6ff;
+      color: #13262f;
+      border: 1px solid #13262f;
+      transform: scale(1, 1);
+      cursor: pointer; }
+      .process-icon:hover .process-number {
+        background-color: #13262f;
+        color: #fff; }
+  .process-item {
+    text-align: center;
+    padding: 2rem 0; }
+    .process-item h3 {
+      margin: 1rem 0; }
+  .process-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #1c77c3;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 0.3rem;
+    line-height: 30px;
+    color: #000;
+    --webkit-transition:$property $time;
+    --ms-transition:$property $time;
+    --o-transition:$property $time;
+    transition: all 1s; }
+
+footer {
+  background-color: #13262f; }
+
+footer .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1rem; }
+  footer .footer-content p {
+    color: #e9e6ff; }
+  footer .footer-content .social i {
+    color: #e9e6ff;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    padding: 0.58rem;
+    margin-left: 1rem;
+    --webkit-transition:$property $time;
+    --ms-transition:$property $time;
+    --o-transition:$property $time;
+    transition: all 0.5s; }
+    footer .footer-content .social i:hover {
+      background-color: #1c77c3;
+      cursor: pointer; }
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column-reverse; }
+    .header-container ul {
+      margin: 2rem 0; }
+      .header-container ul li {
+        padding: 0 1rem; }
+  .home-1 .items {
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr); }
+  .process {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 500px) {
+  .header-container {
+    flex-direction: column-reverse; }
+    .header-container ul {
+      flex-direction: row; }
+      .header-container ul li {
+        padding: 1rem 0; }
+      .header-container ul a {
+        white-space: nowrap; }
+  .home-1 .items {
+    gap: 1.5rem;
+    grid-template-columns: 1fr; }
+  .home-2 .items {
+    grid-template-columns: 1fr; }
+  .home-2 .items div {
+    margin-bottom: 0;
+    padding: 3rem !important; }
+  .process {
+    grid-template-columns: 1fr; }
+  footer .footer-content {
+    flex-direction: column; }
+    footer .footer-content .social {
+      margin-top: 1rem; } }
